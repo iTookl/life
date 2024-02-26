@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Montserrat:wght@500&family=REM:wght@300&display=swap"
+        rel="stylesheet">
+    <title>Life 🧬</title>
+</head>
+
+<body>
+    <div class="wrap" id="wrap">
+        <div>
+            <h1 class="title">Game of Life 🧬</h1>
+            <h3>Rules:</h3>
+            <p>
+                The universe of the Game of Life is an infinite, two-dimensional orthogonal grid of square cells, <br>
+                each
+                of which is in one of two possible states, live or dead (or populated and unpopulated, respectively).
+                <br>Every cell interacts with its eight neighbours, which are the cells that are horizontally,
+                vertically,
+                or diagonally adjacent. <br> <br>At each step in time, the following transitions occur:
+                <br>
+                1. Any live cell with fewer than two live neighbours dies, as if by under population. <br>
+                2. Any live cell with two or three live neighbours lives on to the next generation. <br>
+                3. Any live cell with more than three live neighbours dies, as if by overpopulation. <br>
+                4. Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
+                <br> <br>
+                These rules, which compare the behaviour of the automaton to real life, can be condensed into the
+                following: <br>
+                1. Any live cell with two or three live neighbours survives. <br>
+                2. Any dead cell with three live neighbours becomes a live cell. <br>
+                3. All other live cells die in the next generation. Similarly, all other dead cells stay dead.
+            </p>
+            
+        </div>
+
+        <div class="playground">
+            <div id="matrix"></div>
+            <button id="button" class="button">Start</button>
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
